@@ -1,0 +1,30 @@
+[colors]
+ansi = [
+  "#1c2433",
+  "#FF738A",
+  "#3CEC85",
+  "#EACD61",
+  "#69C3FF",
+  "#B788E5",
+  "#22ECDB",
+  "#ABB7C1",
+]
+background = "#1c2433"
+brights = [
+  "#262e3d",
+  "#FF738A",
+  "#9bdead",
+  "#EACD61",
+  "#69C3FF",
+  "#B78AFF",
+  "#22ECDB",
+  "#ABB7C1",
+]
+cursor_bg = "#52ad70"
+cursor_border = "#52ad70"
+cursor_fg = "#1c2433"
+foreground = "#ABB7C1"
+selection_bg = "#303847"
+
+[metadata]
+name = "Bearded-gale"
