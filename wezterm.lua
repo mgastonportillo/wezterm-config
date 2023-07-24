@@ -7,7 +7,7 @@ local config = {
 	-- Themeing
 	colors = colors,
 	color_scheme = "Bearded-gale",
-	font = wezterm.font("Hack Nerd Font"),
+	font = wezterm.font_with_fallback({ "JetBrainsMono NF", "Hack Nerd Font" }),
 	font_size = 14,
 	line_height = 1.1,
 	use_fancy_tab_bar = false,
@@ -22,7 +22,7 @@ local config = {
 	keys = keys,
 	disable_default_key_bindings = true,
 	-- Functionalities
-	default_prog = { "wsl.exe" },
+	default_prog = { "bash" },
 	enable_scroll_bar = true,
 	hide_tab_bar_if_only_one_tab = true,
 	launch_menu = {},
@@ -31,5 +31,6 @@ local config = {
 }
 
 utils.insertLaunchMenu(config)
+utils.listenerZenMode()
 
 return config

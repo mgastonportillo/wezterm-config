@@ -1,8 +1,9 @@
 [colors]
 ansi = [
-  "#1c2433",
+  "#1C2433",
   "#FF738A",
-  "#3CEC85",
+  "#52AD70", # A darker green seems to work better in most scenarios 
+  # "#3CEC85",
   "#EACD61",
   "#69C3FF",
   "#B788E5",
@@ -11,19 +12,20 @@ ansi = [
 ]
 background = "#1c2433"
 brights = [
-  "#262e3d",
+  "#262E3D",
   "#FF738A",
-  "#9bdead",
+  "#9BDEAD",
   "#EACD61",
   "#69C3FF",
   "#B78AFF",
   "#22ECDB",
-  "#ABB7C1",
+  "#FFFFFF",
 ]
-cursor_bg = "#52ad70"
-cursor_border = "#52ad70"
-cursor_fg = "#1c2433"
-foreground = "#ABB7C1"
+cursor_bg = "#52AD70"
+cursor_border = "#52AD70"
+cursor_fg = "#1C2433"
+foreground = "#c9d3db" # experimenting with a ligher color for better contrast
+# foreground = "#ABB7C1"
 selection_bg = "#303847"
 
 [metadata]

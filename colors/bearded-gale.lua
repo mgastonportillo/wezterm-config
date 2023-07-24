@@ -16,6 +16,7 @@ local c = {
 	cblue = "#69C3FF",
 	cmagenta = "#B788E5",
 	ccyan = "#22ECDB",
+	-- cwhite = "#FFFFFF",
 	cwhite = "#ABB7C1",
 	cbrightBlack = "#262e3d",
 	cbrightRed = "#FF738A",
