@@ -1,29 +1,26 @@
-local colors = require("colors.bearded-gale").colors
 local keys = require("mappings").keys
 local utils = require("utils")
 local wezterm = require("wezterm")
 
 local config = {
 	-- Themeing
-	colors = colors,
-	color_scheme = "Bearded-gale",
+	color_scheme = "Catppuccin Mocha",
 	font = wezterm.font_with_fallback({ "JetBrainsMono NF", "Hack Nerd Font" }),
-	font_size = 14,
+	font_size = 16,
 	line_height = 1.1,
-	window_background_opacity = 0.93,
+	window_background_opacity = 0.9,
+	win32_system_backdrop = "Acrylic",
 	window_padding = {
-		left = "10px",
-		right = "7px",
-		top = "10px",
-		bottom = "0px",
+		left = "20px",
 	},
 	-- Keys setup
 	keys = keys,
 	disable_default_key_bindings = true,
 	-- Functionalities
-	default_prog = { "bash" },
-	enable_scroll_bar = true,
-	enable_tab_bar = false,
+	-- enable_scroll_bar = true,
+	default_prog = { "wsl" },
+	-- enable_tab_bar = false,
+	window_decorations = "INTEGRATED_BUTTONS|RESIZE",
 	use_fancy_tab_bar = false,
 	hide_tab_bar_if_only_one_tab = false,
 	launch_menu = {},
